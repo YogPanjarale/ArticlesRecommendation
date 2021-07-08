@@ -1,0 +1,59 @@
+Arguments: 
+  D:\Enviroments\Node JS\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add axios types@axios
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;D:\Enviroments\Node JS\;C:\Program Files\Java\jdk-14.0.2\bin;D:\Enviroments\MinGW\bin\;D:\Enviroments\Android\SDK;D:\Enviroments\customCommands;D:\Enviroments\Git\cmd;D:\Enviroments\Microsoft VS Code Insiders\bin;D:\Enviroments\ApkTool;D:\Enviroments\Go\bin;C:\Program Files\PuTTY\;C:\Program Files\mosquitto;D:\Enviroments\SubVersion\bin;D:\Enviroments\Cmake\bin;C:\tools\lxrunoffline;D:\Enviroments\Postgressql\13\bin;D:\Enviroments\Redis\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Enviroments\GraphQL\dgraph-windows-amd64;D:\Enviroments\PostGres\13\lib;D:\Enviroments\PostGres\13\bin;D:\Enviroments\make-3.81-bin\bin;D:\Enviroments\Gpg4win\..\GnuPG\bin;D:\Enviroments\GnuPG\bin;D:\Enviroments\Python\Scripts\;D:\Enviroments\Python\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Enviroments\Git\cmd;C:\Program Files\dotnet\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;D:\Enviroments\flutter\bin;C:\Users\Admin\adb;C:\Users\Admin\go\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Program Files\Java\jdk-14.0.2\bin\;D:\Enviroments\MinGW\bin\;C:\Users\Admin\AppData\Local\atom\bin;D:\Enviroments\customCommands;C:\Users\Admin\.dotnet\tools;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;D:\Enviroments\heroku\bin;C:\Users\Admin\.deno\bin;C:\Program Files (x86)\GitHub CLI\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-native-community/masked-view": "0.1.10",
+      "expo": "~42.0.0",
+      "expo-status-bar": "~1.0.4",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+      "react-native-gesture-handler": "~1.10.2",
+      "react-native-pager-view": "5.0.12",
+      "react-native-paper-tabs": "^0.4.2",
+      "react-native-reanimated": "~2.2.0",
+      "react-native-safe-area-context": "3.2.0",
+      "react-native-screens": "~3.4.0",
+      "react-native-web": "~0.13.12",
+      "types": "axios"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.9.0",
+      "@types/react": "~16.9.35",
+      "@types/react-native": "~0.63.2",
+      "typescript": "~4.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
