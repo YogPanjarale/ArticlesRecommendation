@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import { Text, View, FlatList, ListRenderItem } from "react-native";
 import { List } from "react-native-paper";
-import { getRecommendedArticles } from "../utils/getRecommendedArticles";
+import getPopularArticles from "../utils/getPopularArticles";
 import { IArticle } from "../utils/types";
 type State = {
 	data: IArticle[];
 };
 
 const ListItem = (item: IArticle) => (
-	<List.Item title={item.title} description={item.text} />
+	<List.Item title={item.title} description={item.text.substr(0,100)+"..."} />
 );
-export default class Recommended extends Component<{}, State> {
+export default class Popular extends Component<{}, State> {
 	constructor(props: {} | Readonly<{}>) {
 		super(props);
 		this.state = {
@@ -18,7 +18,7 @@ export default class Recommended extends Component<{}, State> {
 		};
 	}
 	componentDidMount = () => {
-		getRecommendedArticles().then((data) => {
+		getPopularArticles().then((data) => {
 			this.setState({ data });
 		});
 	};
