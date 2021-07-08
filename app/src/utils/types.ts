@@ -5,4 +5,5 @@ export interface IArticle {
     title: string;
     url: string;
     total_events: number;
+    text:string;
 }
